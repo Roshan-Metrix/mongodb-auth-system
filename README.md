@@ -30,21 +30,31 @@ A robust authentication system featuring login, signup, profile management, and 
 
 ```
 mongodb-auth-system/
-├── client/               # React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       ├── services/
-│       └── App.js
-├── server/               # Node.js backend
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/          # Uploaded files (e.g., avatars)
-│   ├── .env
-│   └── server.js
+├── config/               # Utils
+│   ├── multerconfig.js/
+├── models/               # Mongodb Database
+│   ├── post.js/
+│   └── user.js/
+├── public/               # Static files
+│   ├── images/
+│       ├── uploads/
+│           ├──default.webp
+├── screenshots/               # Screenshots
+│   ├── createacc.png
+│   ├── login.png
+│   ├── profile.png
+│   ├── profilepic.png
+├── views/               # Engine
+│   ├── edit.ejs
+│   ├── index.ejs
+│   ├── login.ejs
+│   ├── profile.ejs
+│   ├── profileupload.ejs
+├── .gitignore/
+├── app.js/
+├── license.txt/ 
+├── package-lock.json/ 
+├── package.json/ 
 └── README.md
 ```
 
@@ -84,7 +94,7 @@ Follow these steps to set up the project locally:
 
 ### Signup Page
 
-![Signup Page](screenshots/signup.png)
+![Signup Page](screenshots/createacc.png)
 
 ### Login Page
 
@@ -93,6 +103,10 @@ Follow these steps to set up the project locally:
 ### Profile Page
 
 ![Profile Page](screenshots/profile.png)
+
+### Profile Pic Upload
+
+![Profile Pic Upload](screenshots/profilepic.png)
 
 ## License
 
