@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-zinc-900">
+    <div class="flex flex-col items-center justify-center min-h-screen w-full text-white">
+      <h1 class="text-5xl font-extrabold text-white mb-8 drop-shadow-lg">Upload Profile Picture</h1>
+    <form class="bg-zinc-800 p-8 rounded-2xl shadow-2xl w-full max-w-md flex flex-col gap-6" action="/upload" method="post" enctype="multipart/form-data">
+      <label class="flex flex-col items-center justify-center border-2 border-dashed border-blue-500 rounded-lg p-6 cursor-pointer hover:bg-zinc-700 transition-colors duration-200">
+        <span class="text-lg font-semibold mb-2 text-blue-400">Choose a file</span>
+        <input type="file" name="image" class="hidden" />
+        <span class="text-sm text-zinc-400">Drag & drop or click to select</span>
+      </label>
+      <button type="submit" class="mt-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-3 rounded-lg shadow-lg hover:scale-105 transition-transform duration-200">Upload File</button>
+    </form>
+    </div>
+  </body>
+</html>
