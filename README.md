@@ -19,7 +19,7 @@ A robust authentication system featuring login, signup, profile management, and 
 - Profile management (view and update user info)
 - Avatar/image upload using multer
 - Protected routes and session management
-- Responsive React frontend with Tailwind CSS
+- Responsive frontend with Tailwind CSS
 
 ## Technologies Used
 
