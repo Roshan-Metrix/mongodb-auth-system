@@ -23,8 +23,8 @@ A robust authentication system featuring login, signup, profile management, and 
 
 ## Technologies Used
 
-- **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, multer, dotenv, cors
-- **Frontend:** React.js, Tailwind CSS, Axios, React Router
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, multer
+- **Frontend:** EJS, Tailwindcss
 
 ## Project Structure
 
