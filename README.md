@@ -1,6 +1,6 @@
 # MongoDB Auth System
 
-A robust authentication system featuring login, signup, profile management, and file uploads. Built with MongoDB, JWT, bcrypt, multer, and a modern React frontend.
+A robust authentication system featuring login, signup, profile management, and file uploads. Built with MongoDB, JWT, bcrypt, multer, and a modern well frontend.
 
 ## Table of Contents
 
